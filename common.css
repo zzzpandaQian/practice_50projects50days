@@ -1,0 +1,56 @@
+*,body,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100vh;
+    width: 100vw;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.d-flex{
+    display: flex;
+    flex-direction: row;
+}
+.d-flex-col{
+    display: flex;
+    flex-direction: column;
+}
+.col-center{
+    align-items: center;
+}
+.row-between{
+    justify-content: space-between;
+}
+.row-center{
+    justify-content: center;
+}
+.p-1{
+    padding: 0.25rem;
+}
+.p-2{
+    padding: 0.5rem;
+}
+.p-3{
+    padding: 0.75rem;
+}
+.p-4{
+    padding: 1rem;
+}
+.m-1{
+    margin: 0.25rem;
+}
+.m-2{
+    margin: 0.5rem;
+}
+.m-3{
+    margin: 0.75rem;
+}
+.m-4{
+    margin: 1rem;
+}
